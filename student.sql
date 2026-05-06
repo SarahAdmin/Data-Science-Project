@@ -1,2 +1,0 @@
-SELECT Apple 
-from Fruits
