@@ -1,0 +1,2 @@
+SELECT Apple 
+from Fruits
