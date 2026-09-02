@@ -1,0 +1,15 @@
+sns.pairplot(data=mydata,x='example1','example2',hue='column1')
+sns.displot(data=mydata,x='example1',hue='column1')
+
+// Color Pallette // 
+
+myPalette = dns.color_palette('blend:red,yellow)
+sns.palplot(myPalette)
+
+# apply a premade palette
+sns.barplot(data=df, x='week', y='sales', palette='dark')
+
+# apply a custom palette
+sns.barplot(data=df, x='week', y='sales', palette=seqBlues)
+
+seqBlues = sns.color_palette("light:blue", n_colors=10)
