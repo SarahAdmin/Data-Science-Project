@@ -1,3 +1,5 @@
 Error color = For example errcolor='red' 
 Error width = For example errwidth=2
 Size = For example capsize=0.3
+sns.lineplot(data=plants,x='Time',y='Lateral_spread',hue='PH',style='PH',linewidth=100)
+- ci=None 
