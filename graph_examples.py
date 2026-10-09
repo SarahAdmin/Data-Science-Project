@@ -16,3 +16,7 @@ sns.displot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack
 sns.displot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
 sns.displot(tips, x="size", discrete=True)
 sns.displot(penguins, x="flipper_length_mm", hue="sex", multiple="dodge")
+
+fig,ax =  plt.subplots(figsize=(9, 5)) 
+sns.barplot(data=df, x="sales", y="category", orient="h", color="#e76f51",
+            errorbar=None, ax=ax)
