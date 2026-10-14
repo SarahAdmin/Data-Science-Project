@@ -1,0 +1,6 @@
+// if column's data type is string, convert to integer//
+df[example1] = df[example1].replace({',':''},regex=True).astype(int)
+
+// if column's data  is string convert to float // 
+df[example1] = df[example1].replace({',':''},regex=True).astype(float) 
+
